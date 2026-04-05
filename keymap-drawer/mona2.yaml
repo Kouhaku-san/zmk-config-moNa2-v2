@@ -27,7 +27,7 @@ layers:
   - C
   - V
   - B
-  - {t: '5', h: toggle}
+  - {t: '3', h: toggle}
   - {t: '4', h: toggle}
   - N
   - M
@@ -36,7 +36,7 @@ layers:
   - /
   - LEFT CONTROL
   - LEFT WIN
-  - {t: '3', h: toggle}
+  - {t: '5', h: toggle}
   - LEFT SHIFT
   - {t: SPACE, h: '2'}
   - CLCK
