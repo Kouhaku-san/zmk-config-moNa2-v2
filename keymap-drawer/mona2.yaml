@@ -34,10 +34,10 @@ layers:
   - ','
   - .
   - /
-  - {t: LEFT CONTROL, h: LEFT ALT}
-  - LEFT WIN
+  - {t: LEFT ALT, h: LEFT SHIFT}
+  - {t: LEFT WIN, h: LEFT ALT}
+  - LEFT CONTROL
   - '5'
-  - LEFT SHIFT
   - {t: SPACE, h: '2'}
   - CLCK
   - BACKSPACE
@@ -251,8 +251,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
