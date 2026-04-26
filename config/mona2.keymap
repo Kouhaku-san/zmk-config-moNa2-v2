@@ -131,10 +131,10 @@
 
         MOUSE {
             bindings = <
-&trans          &trans  &trans  &trans  &trans                    &trans  &trans  &mkp LCLK  &mkp MCLK  &mkp RCLK
-&trans          &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans     &trans     &kp SEMICOLON
-&trans          &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans     &trans     &trans
-&kp LEFT_SHIFT  &trans  &trans  &trans  &trans  &trans    &trans  &trans                                &trans
+&trans          &trans  &trans  &trans  &trans                    &trans  &trans  &mkp LCLK            &mkp MCLK  &mkp RCLK
+&trans          &trans  &trans  &trans  &trans            &trans  &trans  &trans  &kp LA(RIGHT_ARROW)  &trans     &kp SEMICOLON
+&trans          &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &kp LA(LEFT_ARROW)   &trans     &trans
+&kp LEFT_SHIFT  &trans  &trans  &trans  &trans  &trans    &trans  &trans                                          &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
